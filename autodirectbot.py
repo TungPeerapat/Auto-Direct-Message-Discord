@@ -4,7 +4,7 @@ import datetime
 import asyncio
 from colorama import Fore
 
-CHANNEL_ID = 1026413161575874580
+CHANNEL_ID = "กรอก channel id"
 
 intents = discord.Intents.default()
 intents.members = True
@@ -42,7 +42,7 @@ async def dm_channel_members(ctx, *, message):
         try:
             embed = discord.Embed(
             title="ANNOUNCE TUNG SHOP",
-            url="https://discord.gg/P5gpDJXVKU",
+            url="กรอก Link",
             description=message
 )
             
@@ -56,4 +56,4 @@ async def dm_channel_members(ctx, *, message):
         except discord.errors.Forbidden:
             print(Fore.LIGHTRED_EX + f"Could not send message to: {member.name}")
 
-bot.run('MTE5MTc1MTM4NTkwNjE1OTY3Nw.GceNgi.9_LY4xPtbcNz6tsqi2TbCnhRc1e1BgDXnYRWy0')
+bot.run('กรอก token')
